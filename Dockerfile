@@ -6,6 +6,6 @@ COPY . .
 
 RUN npm i
 
-RUN npm run built  
+RUN npm run build 
 
 CMD ["npm", "start"]
